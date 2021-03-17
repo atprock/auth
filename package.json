@@ -21,9 +21,9 @@
     "eslint": "eslint",
     "eslint:fix": "eslint --fix ./*.js ./src/*.js ./src/routes/**/*.svelte ./src/components/**/*.svelte",
     "dev": "sapper dev",
-    "build": "cross-env NODE_ENV=production sapper build --legacy",
+    "build": "sapper build --legacy",
     "prod": "npm run build",
-    "export": "cross-env NODE_ENV=production sapper export --legacy",
+    "export": "sapper export --legacy",
     "start": "node __sapper__/build"
   },
   "dependencies": {
